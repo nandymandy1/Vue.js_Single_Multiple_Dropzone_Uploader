@@ -1,8 +1,8 @@
 <template>
   <div>
     <!-- As a link -->
-    <bNavbar variant="success" type="dark">
-      <bNavbarBrand href="#">Vue-Express File Uploader</bNavbarBrand>
+    <bNavbar variant="dark" type="dark">
+      <bNavbarBrand href="#" class="text-success font-weight-bold">Vue Uploader</bNavbarBrand>
     </bNavbar>
   </div>
 </template>

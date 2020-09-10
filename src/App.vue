@@ -6,12 +6,12 @@
         <div class="col-md-8 col-sm-12 mx-auto">
           <div class="card">
             <div class="card-header">
-              <h3 class="text-primary">File Upload Form</h3>
+              <h3 class="text-success font-weight-bold">File Upload Form</h3>
             </div>
             <div class="card-body">
               <div class="form-group">
                 <label
-                  class="text-primary font-weight-bold font-size-sm"
+                  class="text-success font-weight-bold font-size-sm"
                   for="single-uploader-component"
                 >Single File Uploader</label>
                 <SingleUpload api-url="/images/single-upload" id="single-uploader-component" />
@@ -19,7 +19,7 @@
               <hr />
               <div class="form-group">
                 <label
-                  class="text-primary font-weight-bold font-size-sm"
+                  class="text-success font-weight-bold font-size-sm"
                   for="multiple-uploader-component"
                 >Multiple File Uploader</label>
                 <MultiUpload api-url="/images/multi-upload" id="multiple-uploader-component" />
@@ -27,7 +27,7 @@
               <hr />
               <div class="form-group">
                 <label
-                  class="text-primary font-weight-bold font-size-sm"
+                  class="text-success font-weight-bold font-size-sm"
                   for="dropzone-component"
                 >Dropzone</label>
                 <Dropzone api-url="/images/single-upload" id="dropzone-component" />
