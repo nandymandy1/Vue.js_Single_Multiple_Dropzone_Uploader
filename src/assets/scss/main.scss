@@ -1,0 +1,66 @@
+$blue:    #5A42DE !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #58D68D !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+.card {
+    border: 0px;
+    border-radius: 0px !important;
+    box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+body{
+    background-color: #E0E6E9 !important;
+}
+
+.multiple-upload {
+    .upload-container {
+      height: 100px !important;
+      width: 100px !important;
+      border: 2px dashed #ccc;
+      border-radius: 5px !important;
+      :hover {
+        background-color: #ccc !important;
+      }
+    }
+    .input-uploader {
+      opacity: 0;
+      position: absolute;
+      width: 100px !important;
+      height: 100px !important;
+    }
+    .uploader-icon {
+      width: 50px !important;
+      height: 50px !important;
+    }
+  }
+
+  .single-upload {
+    .upload-container {
+      height: 100px !important;
+      width: 100px !important;
+      border: 2px dashed #ccc;
+      border-radius: 5px !important;
+      :hover {
+        background-color: #ccc !important;
+      }
+    }
+    .input-uploader {
+      opacity: 0;
+      position: absolute;
+      width: 100px !important;
+      height: 100px !important;
+    }
+    .uploader-icon {
+      width: 50px !important;
+      height: 50px !important;
+    }
+  }
